@@ -23,7 +23,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 const App = () => {
-  const API_URL = 'http://localhost:3001/todos';
+  const API_URL = 'https://totoreactbe.onrender.com';
 
   const [task, setTask] = useState('');
   const [date, setDate] = useState('');
